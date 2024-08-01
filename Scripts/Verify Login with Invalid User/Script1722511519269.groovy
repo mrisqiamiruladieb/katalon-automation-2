@@ -21,22 +21,22 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
+WebUI.navigateToUrl('https://kasirdemo.belajarqa.com')
 
-'Assert kasirAja Login Page'
-WebUI.verifyElementVisible(findTestObject('Object Repository/kasirAja/Page_Login/h2_hai, kasirAja'))
+'Assert sudah berada di web kasirAja'
+WebUI.waitForElementVisible(findTestObject('kasirAja/Page_Login/h2_hai, kasirAja'), 0)
 
-'Input Email Form'
-WebUI.setText(findTestObject('Object Repository/kasirAja/Page_Login/email_field'), 'baron@gmail.co.id')
+'Input email'
+WebUI.setText(findTestObject('kasirAja/Page_Login/email_field'), 'baron@gmail.co.id')
 
-'Input Password Form'
-WebUI.setEncryptedText(findTestObject('Object Repository/kasirAja/Page_Login/password_field'), 'LCWjgV6WjscqyVWJvXjQgg==')
+'Input password'
+WebUI.setEncryptedText(findTestObject('kasirAja/Page_Login/password_field'), 'HzIc6lmYYzdb1REhw6QG2w==')
 
-'Click Login Button'
-WebUI.click(findTestObject('Object Repository/kasirAja/Page_Login/button_login'))
+'Klik tombol login'
+WebUI.click(findTestObject('kasirAja/Page_Login/button_login'))
 
-'Assert Error Messages'
-WebUI.verifyElementVisible(findTestObject('Object Repository/kasirAja/Page_Login/error_invalid_email_password'))
+'Assert pesan error invalid data'
+WebUI.waitForElementVisible(findTestObject('kasirAja/Page_Login/error_invalid_email_password'), 0)
 
 WebUI.closeBrowser()
 

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>42376073-386f-4604-bb7b-aeb40f2f7ab8</webElementGuid>
+      <webElementGuid>252597c2-6aca-4a91-b4c6-f139841a619c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-heading css-1nbmnqw</value>
-      <webElementGuid>b6dfd856-6e49-4eaf-b6f4-69580e3483ed</webElementGuid>
+      <webElementGuid>d955c7fa-834a-41c0-999a-7f953bae7608</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>hai, kasirAja</value>
-      <webElementGuid>66735798-d5d2-4dad-a805-cba2999f8aa6</webElementGuid>
+      <webElementGuid>4f04fc82-5176-46e4-954a-e388fe420373</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;css-1y1lvqg&quot;]/div[@class=&quot;css-16in75i&quot;]/div[@class=&quot;css-104g6p0&quot;]/h2[@class=&quot;chakra-heading css-1nbmnqw&quot;]</value>
-      <webElementGuid>fcc8d913-2526-4503-bf8f-ecac8d0b036d</webElementGuid>
+      <webElementGuid>2a0285fa-28d2-48a9-a669-7e7c67c3c142</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/h2</value>
-      <webElementGuid>09353f40-400a-4fc6-9777-2756ddd355f8</webElementGuid>
+      <webElementGuid>9f37be19-b446-4801-a27c-dd7f11ed677a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='- kasirAjaDev'])[1]/preceding::h2[1]</value>
-      <webElementGuid>e24aa1ff-fd29-4689-a2a7-c34c5c490930</webElementGuid>
+      <webElementGuid>357b0aea-e593-41fe-99a4-53a53aeeb0fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='email'])[1]/preceding::h2[1]</value>
-      <webElementGuid>b89d07da-8f59-45a5-9a70-832491630d8a</webElementGuid>
+      <webElementGuid>848dcb39-7722-4f1c-a6ae-8c74910d2d48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='hai, kasirAja']/parent::*</value>
-      <webElementGuid>4fdf6edd-59e1-4d8d-9511-d6d7931082c2</webElementGuid>
+      <webElementGuid>52fb9123-4df9-4143-8ff6-d8b26f4f44c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>9ea0cd11-39d8-41df-9ac7-7be4d1cc4302</webElementGuid>
+      <webElementGuid>655c768a-ef5d-470c-bd8e-b90abaeb3ad3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'hai, kasirAja' or . = 'hai, kasirAja')]</value>
-      <webElementGuid>9ec7c628-1523-4124-8202-a2ff4f88b33c</webElementGuid>
+      <webElementGuid>e462979d-ca83-4de6-b229-062fb18e5f95</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

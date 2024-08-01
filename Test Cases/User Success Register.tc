@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify Login with Invalid User</name>
+   <name>User Success Register</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b2ced4da-683d-404b-a1db-68b34faa53f5</testCaseGuid>
+   <testCaseGuid>79802eec-9d12-4371-b55e-80c0d1daf2a4</testCaseGuid>
 </TestCaseEntity>
