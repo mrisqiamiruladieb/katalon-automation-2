@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>af00fd27-3966-459e-9512-247c152de24d</webElementGuid>
+      <webElementGuid>f680003d-4ae3-4569-a641-77721a955f47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>5dc9ebba-1640-4360-845f-fc1e7f8a4aee</webElementGuid>
+      <webElementGuid>783142ef-3c5d-44d9-a68f-2ad580bedde1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-button css-1n8i4of</value>
-      <webElementGuid>9cc7e6e4-2f49-43eb-aa44-0dfa1194cd5c</webElementGuid>
+      <webElementGuid>c2083ada-84c3-4cb3-9014-de4ebd215527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>daftar</value>
-      <webElementGuid>65cf8783-abef-4803-adea-4938e8b969a1</webElementGuid>
+      <webElementGuid>7e82bc01-780d-4e15-9693-16d75965c58f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;css-1y1lvqg&quot;]/div[@class=&quot;css-16in75i&quot;]/div[@class=&quot;css-1w7v3tn&quot;]/div[@class=&quot;css-11jlpvc&quot;]/button[@class=&quot;chakra-button css-1n8i4of&quot;]</value>
-      <webElementGuid>b60340ed-4014-4b95-a464-0c07e217e4c1</webElementGuid>
+      <webElementGuid>82909a13-6035-44cb-9cf7-0333ce637f14</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>76ef3280-0f65-4173-b3fb-a5885b04e712</webElementGuid>
+      <webElementGuid>c81517d4-17b0-4d04-993f-a17dc04c35fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div[2]/div/button</value>
-      <webElementGuid>6e72627f-b5c1-490e-8c76-77e4f2f4381e</webElementGuid>
+      <webElementGuid>ec3f8fcc-b365-42da-95e5-62b6cb295c7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='sudah punya akun, login ?'])[1]/following::button[1]</value>
-      <webElementGuid>5d0ac1fc-ae61-45e5-8fd3-d33cc30e0986</webElementGuid>
+      <webElementGuid>ac48f46d-4fa1-48d4-bada-ae8a8e120712</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='password'])[1]/following::button[2]</value>
-      <webElementGuid>6fbd8bcf-4ea2-4158-916c-e4129ceb00ed</webElementGuid>
+      <webElementGuid>641b61c7-049a-494b-b1fb-4689b0422b1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='daftar']/parent::*</value>
-      <webElementGuid>1ac29472-d257-4fbf-9025-93cbe4d6b733</webElementGuid>
+      <webElementGuid>89ae627b-8d46-4eb2-b83c-00f3fa125d54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button</value>
-      <webElementGuid>ee69c41e-65e3-46e2-aae2-746537d82ac2</webElementGuid>
+      <webElementGuid>5940d7ac-922e-4797-84c2-87c81e154e53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'daftar' or . = 'daftar')]</value>
-      <webElementGuid>c9ffa968-e258-46cd-ad61-7d85cd14bc43</webElementGuid>
+      <webElementGuid>2012e950-d6e0-4580-ab2c-7a8fa0f1e124</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
