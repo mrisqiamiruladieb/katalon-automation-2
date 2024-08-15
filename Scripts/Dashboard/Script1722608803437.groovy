@@ -46,13 +46,15 @@ def jsonObject = new LocalStorage(
 def jsonString = JsonOutput.toJson(jsonObject)
 
 'Navigate to Login page'
-WebUI.navigateToUrl('https://kasirdemo.belajarqa.com')
+//WebUI.navigateToUrl('https://kasirdemo.belajarqa.com')
+WebUI.navigateToUrl('https://kasirdemo.vercel.app')
 
 'Set LocalStorage'
 WebUI.executeJavaScript("localStorage.setItem('KASIRAJA_USER','" + jsonString + "')", null)
 
 //Test Case to access Dashboard page
-WebUI.navigateToUrl("https://kasirdemo.belajarqa.com/dashboard")
+//WebUI.navigateToUrl("https://kasirdemo.belajarqa.com/dashboard")
+WebUI.navigateToUrl('https://kasirdemo.vercel.app/dashboard')
 WebUI.verifyElementVisible(findTestObject('Page_Home/title_kasirAja'))
 
 'Clear Local Storage'
