@@ -21,11 +21,6 @@ import groovy.json.JsonSlurper as JsonSlurper
 'Send Request'
 response = WS.sendRequest(findTestObject('kasirAja/API/Authorization - Login'))
 
-//Response Assertion
-WS.verifyResponseStatusCode(response, 201)
-WS.verifyElementPropertyValue(response, 'status', 'success')
-WS.verifyElementPropertyValue(response, 'data.user.email', GlobalVariable.email)
-
 //Parse Response
 def jsonSlurper = new JsonSlurper()
 def jsonResponse = jsonSlurper.parseText(response.getResponseBodyContent())
@@ -40,3 +35,8 @@ GlobalVariable.role = jsonResponse.data.user.role
 GlobalVariable.officeId = jsonResponse.data.user.officeId
 GlobalVariable.companyId = jsonResponse.data.user.companyId
 GlobalVariable.companyName = jsonResponse.data.user.company_name
+
+//Response Assertion
+WS.verifyResponseStatusCode(response, 201)
+WS.verifyElementPropertyValue(response, 'status', 'success')
+WS.verifyElementPropertyValue(response, 'data.user.email', GlobalVariable.email)
