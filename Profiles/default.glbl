@@ -49,4 +49,14 @@
       <initValue>''</initValue>
       <name>companyName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://kasir-api.belajarqa.com'</initValue>
+      <name>baseUrlLama</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://kasir-api.zelz.my.id'</initValue>
+      <name>baseUrlBaru</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

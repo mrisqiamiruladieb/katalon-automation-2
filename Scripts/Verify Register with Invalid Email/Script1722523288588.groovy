@@ -21,7 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
+//WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
+WebUI.navigateToUrl('https://kasirdemo.vercel.app')
 
 'Assert sudah berada di web kasirAja'
 WebUI.waitForElementVisible(findTestObject('kasirAja/Page_Login/h2_hai, kasirAja'), 0)
